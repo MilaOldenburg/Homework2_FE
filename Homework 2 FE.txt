@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylehw.css">
+</head>
+<body>
+    <h1>Список валют</h1>
+    <ul class="centered">
+        <li>€ (EUR)-Евро (Страны Европы)</li>
+        <li>$ (USD)-Доллар (США)</li>
+        <li>£ (GBP)-Фунт стерлингов (Великобритания)</li>
+        <li>¥ (JPY)-Иена (Япония)</li>
+        <li>₾ (GEL)-Лари (Грузия)</li>
+    </ul>
+
+    <h2>Курс на сегодня</h2>
+    <div class="center-table">
+    <table>
+        <tr>
+            <th>Флаг</th>
+            <th>Валюта</th>
+            <th>Курс</th>
+        </tr>
+        <tr>
+            <td ><img src="flage/th.jpeg" alt=""><img src="flage/270px-European_flag,_incorrect_star_rotation.svg1.png" alt=""></td>
+            <td>$ (USD) / € (EUR)</td>
+            <td>0,93€</td>
+        </tr>
+        <tr >
+            <td><img src="flage/Flag_of_the_United_Kingdom1_(3-5).svg.png" alt=""><img src="flage/270px-European_flag,_incorrect_star_rotation.svg1.png" alt=""></td>
+            <td>£ (GBP) / € (EUR)</td>
+            <td>1,17€</td>
+        </tr>
+        <tr>
+            <td ><img src="flage/Flag_of_Japan.svg1.png" alt=""><img src="flage/270px-European_flag,_incorrect_star_rotation.svg1.png" alt=""></td>
+            <td>¥ (JPY) / € (EUR)</td>
+            <td>0,0073€</td>
+        </tr>
+        <tr>
+            <td ><img src="flage/Flag_of_Georgia1.svg.webp" alt=""><img src="flage/270px-European_flag,_incorrect_star_rotation.svg1.png" alt=""></td>
+            <td>₾ (GEL) / € (EUR)</td>
+            <td>0,32€</td>
+        </tr>
+        
+        </table>
+        </div>
+    
+</body>
+</html>
+
+
+
+
+ul.centered {
+    text-align: center;
+}
+h1,h2 {
+    text-align: center;
+    font-size: 40px;
+
+}
+table{
+    border-collapse:collapse;
+}
+td, th {
+    border: 2px solid black;
+}
+
+
+::-webkit-textfield-decoration-container {
+    width: 10%; 
+    text-align: center; 
+    vertical-align: middle; 
+    padding: 10px; 
+}
+img {
+    max-width: 50%; 
+    height: 50px;; 
+}
+.center-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh; /* Это обеспечивает вертикальное выравнивание по центру */
+}
+
+   
